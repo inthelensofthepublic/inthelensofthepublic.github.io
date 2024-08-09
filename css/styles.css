@@ -3751,7 +3751,7 @@ td:last-child {
 .s-intro__content-pretitle,
 .s-intro__scroll-down {
 	transition-timing-function: cubic-bezier(0.28, 0.12, 0.22, 1);
-	transition-duration       : 0.9s;
+	transition-duration       : 0s;
 	transition-delay          : 0s;
 	opacity                   : 0;
 }
@@ -4747,4 +4747,9 @@ td:last-child {
 
 html {
 	scroll-behavior: smooth;
+}
+
+.scroll-icon-color {
+	color:#000000 !important;
+	background-color: #000000;
 }
