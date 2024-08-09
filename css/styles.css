@@ -3639,7 +3639,7 @@ td:last-child {
 }
 
 .s-intro__content-media {
-	grid-column : 12/-2;
+	grid-column : 12/-1;
 	grid-row    : span 2;
 	justify-self: end;
 	align-self  : center;
@@ -3751,7 +3751,7 @@ td:last-child {
 .s-intro__content-pretitle,
 .s-intro__scroll-down {
 	transition-timing-function: cubic-bezier(0.28, 0.12, 0.22, 1);
-	transition-duration       : 0s;
+	transition-duration       : 0.9s;
 	transition-delay          : 0s;
 	opacity                   : 0;
 }
